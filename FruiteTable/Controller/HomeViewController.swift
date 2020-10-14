@@ -22,8 +22,6 @@ class HomeViewController: UIViewController , UITableViewDataSource , UITableView
         HomeTable.delegate = self
         
         
-        arrFruites.append(fruites.init(photo: UIImage(named: "ter-Stegen-600x708")!, name: "Appel", price: 20, description: "Red Fruite"))
-        
         arrFruites.append(fruites.init(photo: UIImage(named: "img_banana")!, name: "banana", price: 10, description: "Yello Fruite"))
         
         arrFruites.append(fruites.init(photo: UIImage(named: "img_lemon")!, name: "lemon", price: 40, description: "Green Fruite"))
